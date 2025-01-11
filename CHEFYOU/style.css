@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #213547;
+}
+
+.header {
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.11), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 2px 0px rgba(184, 83, 83, 0.51), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.markdown h1, .markdown h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ec6b09;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.markdown p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.markdown ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.markdown ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #213547;
+}
+
+.markdown a {
+    color: #ec6b09;
+    text-decoration: underline;
+}
+
+.markdown p strong {
+    font-weight: bold;
+    color: #ec6b09;
+}
+
+.markdown ul li {
+    background-color: #ff4d46;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.markdown p strong {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.markdown li p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.markdown li p strong {
+    color: #ec6b09;
+    font-size: 1.1rem;
+}
+
+.markdown ol li p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.markdown ol li p strong {
+    color: #f71b14;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .markdown h1, .markdown h2 {
+        font-size: 2rem;
+    }
+
+    .markdown p {
+        font-size: 0.9rem;
+    }
+
+    .markdown p strong {
+        font-size: 1.1rem;
+    }
+
+    .markdown li p {
+        font-size: 0.9rem;
+    }
+
+    .markdown li p strong {
+        font-size: 1rem;
+    }
+
+    .markdown ol li p strong {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .markdown h1, .markdown h2 {
+        font-size: 1.5rem;
+    }
+
+    .markdown p {
+        font-size: 0.8rem;
+    }
+
+    .markdown p strong {
+        font-size: 1rem;
+    }
+
+    .markdown li p {
+        font-size: 0.8rem;
+    }
+
+    .markdown li p strong {
+        font-size: 0.9rem;
+    }
+
+    .markdown ol li p strong {
+        font-size: 1rem;
+    }
+}
