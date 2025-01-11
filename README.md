@@ -53,3 +53,27 @@ Or watch the demo directly:
 ### Running the Application
 
 To start the development server, run:
+```sh
+npm run dev
+```
+
+Open your browser and navigate to http://localhost:5173 (by default by Vite) to see ChefYou in action.
+
+## Usage
+
+1. Add your ingredients using the input form.
+2. Click on "Get Recipe" to generate a recipe using the T5 model.
+3. Alternatively, click on "Get Recipe at flash speed... 🚀" to use the Gemini model for faster results.
+4. View the generated recipe and its image.
+
+## Contributing
+
+We welcome contributions! Please feel free to contribute in any way you can.
+
+## Acknowledgements
+
+- Hugging Face
+- Google Gemini
+- Mistral AI
+
+Happy cooking with ChefYou! 🍳👨‍🍳👩‍🍳
